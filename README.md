@@ -3,7 +3,7 @@
 [![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://money.yandex.ru/to/)
 
 
-Многофункциональное модульный контроллер для домашней автоматизации, на основе ESP32 с Ethernet. 
+Многофункциональный модульный контроллер для домашней автоматизации, на основе ESP32 с Ethernet. 
 
 <img src="/MainBoard/images/case.jpg" width="600">
 
