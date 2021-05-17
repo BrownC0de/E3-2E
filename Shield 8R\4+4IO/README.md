@@ -37,17 +37,17 @@
 ***
 
 Размеры и тип компонентов:
-- K1-K8 - Реле ALDP105W [Ali],[ChipDip]
-- U1-U2 - PCF8574T 8 канальные расширители портов [Ali],[ChipDip]
-- D1 - Матрица Дарлингтона из восьми транзисторов [Ali],[ChipDip]
-- D3 - 4х канальная транзисторная оптопара [Ali],[ChipDip]
-- N1-N4 - Конденсаторы 0.1МкФ, размером 0805 [Ali],[ChipDip]
-- R5-R8 - Резисторы номиналом 1к, размером 0805 [Ali],[ChipDip]
-- R1, R4 - Резисторы номиналом 10к, размерность 1206 (В следующей версии переделаю на 0805) [Ali],[ChipDip]
-- С13-С20 - Двойные клемники, 2,54 [Ali],[ChipDip]
-- С7, С12, С5, С6 - Двойные клемники, 2,54 [Ali],[ChipDip]
-- J - Гребенка из 2х пинов 2,54 [Ali],[ChipDip]
-- H Гребенка из 3х пинов 2,54 [Ali],[ChipDip]
+- K1-K8 - Реле ALDP105W [Ali](https://aliexpress.ru/item/4001081126200.html),[ChipDip](https://www.chipdip.ru/product1/8003573908)
+- U1-U2 - PCF8574T 8 канальные расширители портов [Ali](https://aliexpress.ru/item/32964941533.html),[ChipDip](https://www.chipdip.ru/product/pcf8574t-3)
+- D1 - Матрица Дарлингтона из восьми транзисторов [Ali](https://aliexpress.ru/item/32792767122.html),[ChipDip]
+- D3 - 4х канальная транзисторная оптопара TLP281-4GB [Ali](https://aliexpress.ru/item/4001304582657.html),[ChipDip]
+- N1-N4 - Конденсаторы 0.1МкФ, размером 0805 [Ali](https://aliexpress.ru/item/32958102729.html),[ChipDip]
+- R5-R8 - Резисторы номиналом 1к, размером 0805 [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- R1, R4 - Резисторы номиналом 10к, размерность 1206 (В следующей версии переделаю на 0805) [Ali_0805](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- С13-С20 - Двойные клемники, 2,54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- С7, С12, С5, С6 - Двойные клемники, 2,54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- J - Гребенка из 2х пинов 2,54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
+- H Гребенка из 3х пинов 2,54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
 - I2c-Shield - Порт "мама" для гребенки из 5 пинов 2,54 [Ali],[ChipDip]
 
 
