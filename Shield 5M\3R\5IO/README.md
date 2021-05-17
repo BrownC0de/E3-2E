@@ -36,19 +36,20 @@
 ***
 
 Размеры и тип компонентов:
-- K1, К7, К8 - Реле ALDP105W [Ali],[ChipDip]
-- U1 - PCF8574T 8 канальные расширители портов [Ali],[ChipDip]
-- D1 - Матрица Дарлингтона из восьми транзисторов [Ali],[ChipDip]
-- U2 - Двойноq клемник 5.0 [Ali],[ChipDip]
-- P1, P2 - Тройные клемники 5.0 [Ali],[ChipDip]
-- P3 - Тройной клемник 2.54 [Ali],[ChipDip]
-- С1, C7, C19, C20 - Двойные клемники 2.54 [Ali],[ChipDip]
-- Q1, Q2, Q3, Q4, Q5 - Мосфеты IRF3205 [Ali],[ChipDip]
-- I2c-Shield Гребенка на 5 пинов, 2.54 [Ali],[ChipDip]
-- GPIO-Shield Гребенка на 6 пинов, 2.54 [Ali],[ChipDip]
-- R1, R2,R3,R5,R10 - Резисторы от 220 до 500 Ом, размером 0805 [Ali],[ChipDip]
-- R4, R6, R7, R8, R9, R11, R12 ,R13, R14, R20  - Резисторы 10к, в размере 0805 [Ali],[ChipDip]
-- J - Гребенка на 2 пина 2.54, с перемычкой [Ali],[ChipDip]
+- K1, К7, К8 - Реле ALDP105W [Ali](https://aliexpress.ru/item/4001081126200.html),[ChipDip](https://www.chipdip.ru/product1/8003573908)
+- U1 - PCF8574T 8 канальные расширители портов [Ali](https://aliexpress.ru/item/32964941533.html),[ChipDip](https://www.chipdip.ru/product/pcf8574t-3)
+- D1 - Матрица Дарлингтона из восьми транзисторов [Ali](https://aliexpress.ru/item/32792767122.html),[ChipDip]
+- U2 - Двойной клемник 5.0 [Ali],[ChipDip]
+- P1, P2 - Тройные клемники 5.0 [Ali](https://aliexpress.ru/item/32861603911.html),[ChipDip]
+- P3 - Тройной клемник 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- С1, C7, C19, C20 - Двойные клемники 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- Q1, Q2, Q3, Q4, Q5 - Мосфеты IRF3205 [Ali](https://aliexpress.ru/item/32511028751.html),[ChipDip]
+- I2c-Shield Гребенка на 5 пинов, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html),[ChipDip]
+- GPIO-Shield Гребенка на 6 пинов, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html),[ChipDip]
+- R1, R2,R3,R5,R10 - Резисторы от 220 до 500 Ом, размером 0805 [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- R4, R6, R7, R8, R9, R11, R12 ,R13, R14, R20  - Резисторы 10к, в размере 0805 [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- J - Гребенка на 2 пина 2.54 с перемычкой [Ali](https://aliexpress.ru/item/32519474531.html),[ChipDip]
+- J - Перемычка [Ali](https://aliexpress.ru/item/4001139171872.html), [ChipDip]
 
 Для заказа компонентов: [Файл BOM](/MainBoard)
 
