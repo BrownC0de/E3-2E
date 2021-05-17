@@ -47,23 +47,23 @@
 ***
 
 Размеры и тип компонентов:
-- U3 - Плата Wt32-Eth01 [Ali],[ChipDip]
-- R - резисторы. Все резисторы номиналом 10к, в размере 0805. Для колодки P6 в случае надобности номинал расчитываеться отдельно. [Ali],[ChipDip]
-- DC - Уже готовый модуль DC-DC Mini560 [Ali],[ChipDip]
-- U1 - Самовостанавливающийся предохранитель MF-MSMF110-2 на 1.1а [Ali],[ChipDip]
-- I2c-Shield Гребенка на 5 пинов, 2.54 [Ali],[ChipDip]
-- GPIO-Shield Гребенка на 6 пинов, 2.54 [Ali],[ChipDip]
-- J - Гребенка на 2 пина 2.54, с перемычкой [Ali],[ChipDip]
-- P1, P2 - Винтовые зажимы на 3 пина, 5.0 [Ali],[ChipDip]
-- P3, P4, P5 - Винтовые зажимы на 3 пина, 2.54 [Ali],[ChipDip]
-- P6 - Винтовой зажим на 2 пина, 2.54 [Ali],[ChipDip]
-- I2c - Либо Г образная гребенка на 4 пина, либо 2 виннтовых зажима, 2.54 [Ali],[ChipDip]
-- K - Резистор 1к, размерность 0805 [Ali],[ChipDip]
-- LINK - Светодиод в в размре 1206 [Ali],[ChipDip]
+- U3 - Плата Wt32-Eth01 [Ali](https://aliexpress.ru/item/1005002332884115.html),[ChipDip]
+- R - резисторы. Все резисторы номиналом 10к, в размере 0805. Для колодки P6 в случае надобности номинал расчитываеться отдельно. [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- DC - Уже готовый модуль DC-DC Mini560 [Ali](https://aliexpress.ru/item/1005001837049300.html),[ChipDip]
+- U1 - Самовостанавливающийся предохранитель MF-MSMF110-2 на 1.1а [Ali](https://aliexpress.ru/item/32975361540.html),[ChipDip]
+- I2c-Shield Гребенка на 5 пинов, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
+- GPIO-Shield Гребенка на 6 пинов, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
+- J - Гребенка на 2 пина 2.54, с перемычкой [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
+- P1, P2 - Винтовые зажимы на 3 пина, 5.0 [Ali](https://aliexpress.ru/item/32861603911.html),[ChipDip]
+- P3, P4, P5 - Винтовые зажимы на 3 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- P6 - Винтовой зажим на 2 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- I2c - Либо Г образная гребенка на 4 пина, либо 2 виннтовых зажима, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
+- K - Резистор 1к, размерность 0805 [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
+- LINK - Светодиод в в размре 1206 [Ali](https://aliexpress.ru/item/32985163457.html),[ChipDip]
 __________________________
-- Корпус [Ali],[ChipDip]
-- Крепежные болты [Ali],[ChipDip]
-- Рекомендуемый блок питания [Ali],[ChipDip]
+- Корпус [Ali](https://aliexpress.ru/item/4000865202905.html),[ChipDip]
+- Крепежные болты [Ali](https://aliexpress.ru/item/4001025704531.html),[ChipDip]
+- Рекомендуемый блок питания [Ali](),[ChipDip]
 
 Для заказа компонентов: [Файл BOM](/MainBoard)
 
