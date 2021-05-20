@@ -1,3 +1,4 @@
-# Модификации стика v3 ([modkam.ru](https://modkam.ru/?p=1112))
-### Подробная информация расположена [на странице Wiki](https://github.com/egony/MODKAM-STICK-V3/wiki).
-***
+# Модуль на 16 Входов\выходов c опторазвязкой E3-2E 12+4IO
+<img src="/MainBoard/images/Shield_4.png" width="600">
+
+
