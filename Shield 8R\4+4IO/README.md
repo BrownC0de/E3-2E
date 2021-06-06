@@ -63,7 +63,7 @@
 
 ### Прошивка EspHome
 Примеры конфигурационных файлов под эту плату ниже: 
-- [Раз](/Shield%208R%5C4%2B4IO/Esphome.yaml)
+- [Универсальная конфигурация](/Shield%208R%5C4%2B4IO/Esphome.yaml) [BIN](/Shield%208R%5C4%2B4IO/Esphome.bin)
 - Два
 
 ### Сборка платы
