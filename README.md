@@ -12,7 +12,7 @@
 
 
 ### [E3-2E Board](/MainBoard)
-<img src="/MainBoard/images/photo_mainboard.jpg" width="1000">
+<img src="/MainBoard/photo_mainboard.jpg" width="1000">
 Базовая плата на которой размещен esp32, и включает в себя:
 
 - 8 Портов ввода\вывода, с подключаемой внешней подтяжкой резисторм pulldown на 10к
@@ -31,7 +31,7 @@
 На данный момоент спроектированы следующие шилды
 
 ### [Shield 8R\4+4IO](/Shield%208R%5C4%2B4IO)
-<img src="/MainBoard/images/Shield_1.png" width="600">
+<img src="/Shield%208R%5C4%2B4IO/photo_8r.jpg" width="1000">
 Расширительрный модуль на 16 портов, из которых 
 
 - 8 Реле на 5а
@@ -39,7 +39,7 @@
 - 4 Входа\выхода с возможностью подключения через опторазвязку
 
 ### [Shield 5M\3R\5IO](/Shield%205M%5C3R%5C5IO)
-<img src="/MainBoard/images/Shield_2.png" width="600">
+<img src="/Shield%205M%5C3R%5C5IO/Shield_mosfet.jpg" width="1000">
 Расширительный модуль на 8 портов, из которых
 
 - 5 Мосфетов, для подключение светодиодных лент, моторов
