@@ -66,6 +66,7 @@
 Универсальная конфигурация:
 - [YAML](/Shield%208R%5C4%2B4IO/Esphome.yaml) 
 - [BIN](/Shield%208R%5C4%2B4IO/e3-2e_8relay_01.bin)
+
 Конфигурация под систему отопления
 - YAML
 - BIN
