@@ -1,0 +1,254 @@
+substitutions:
+  board: ESP32
+  board_name: e3-2e_02
+  
+esphome:
+  name: $board_name
+  platform: ESP32
+  board: esp-wrover-kit
+
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk_mode: GPIO0_IN
+  phy_addr: 1
+  power_pin: GPIO16
+  
+# Enable logging
+logger:
+  level: DEBUG
+
+# Enable Home Assistant API
+api:
+  reboot_timeout: 0s
+ota:
+
+web_server:
+  port: 80
+  
+esp32_ble_tracker:
+
+switch:
+  - platform: restart
+    name: "${board_name}_restart"
+#########################Shield 8 Relay####################    
+  - platform: gpio
+    name: "${board_name}_relay_2_0"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 0
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_1"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 1
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_2"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 2
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_3"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 3
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_4"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 4
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_5"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 5
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False   
+  - platform: gpio
+    name: "${board_name}_relay_2_6"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 6
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_relay_2_7"
+    pin:
+      pcf8574: pcf8574_relay
+      number: 7
+      # One of INPUT or OUTPUT
+      mode: OUTPUT
+      inverted: False
+
+  
+binary_sensor:
+  - platform: status
+    name: "${board_name}_status"
+  - platform: gpio
+    pin: 5
+    name: "${board_name}_pin_5"
+    device_class: occupancy  
+  - platform: gpio
+    pin: 17
+    name: "${board_name}_pin_17"
+    device_class: moisture      
+  - platform: gpio
+    pin: 39
+    name: "${board_name}_pin_39"
+    device_class: sound     
+  - platform: gpio
+    pin: 36
+    name: "${board_name}_pin_36"
+    device_class: vibration     
+  - platform: gpio
+    pin: 15
+    name: "${board_name}_pin_15"
+    device_class: moving
+  - platform: gpio
+    pin: 14
+    name: "${board_name}_pin_14"
+    device_class: lock 
+  - platform: gpio
+    pin: 12
+    name: "${board_name}_pin_12"
+    device_class: garage_door
+  - platform: gpio
+    pin: 35
+    name: "${board_name}_pin_35"
+    device_class: motion
+  - platform: gpio
+    pin: 4
+    name: "${board_name}_pin_4"
+    device_class: window 
+  - platform: gpio
+    pin: 2
+    name: "${board_name}_pin_2"
+    device_class: door
+#########################Shield 4+4IO####################
+  - platform: gpio
+    name: "${board_name}_pin_1_7"
+    pin:
+      pcf8574: pcf8574_io
+      number: 7
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_6"
+    pin:
+      pcf8574: pcf8574_io
+      number: 6
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_5"
+    pin:
+      pcf8574: pcf8574_io
+      number: 5
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_4"
+    pin:
+      pcf8574: pcf8574_io
+      number: 4
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_3"
+    pin:
+      pcf8574: pcf8574_io
+      number: 3
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_2"
+    pin:
+      pcf8574: pcf8574_io
+      number: 2
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+  - platform: gpio
+    name: "${board_name}_pin_1_1"
+    pin:
+      pcf8574: pcf8574_io
+      number: 1
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: False
+  - platform: gpio
+    name: "${board_name}_pin_1_0"
+    pin:
+      pcf8574: pcf8574_io
+      number: 0
+      # One of INPUT or OUTPUT
+      mode: input
+      inverted: true
+
+i2c:
+  sda: 33
+  scl: 32
+  scan: True
+  id: i2c_bus    
+    
+pcf8574:
+  - id: 'pcf8574_relay'
+    address: 0x21
+    pcf8575: False    
+  - id: 'pcf8574_io'
+    address: 0x20
+    pcf8575: False      
+    
+text_sensor:
+  - platform: version
+    name: "${board_name}_firmware"
+  - platform: template
+    name: "${board_name}_uptime_min"
+    lambda: |-
+      uint32_t uptime = (id(id_uptime).state);
+      int minutes = (uptime % 3600) / 60;
+      int hours = (uptime % 86400) / 3600;
+      int days = uptime / 86400;
+      if (days > 0) {
+        return { (String(days) + " д." + String(hours) + " ч." + String(minutes) + " мин.").c_str() };
+      }
+      if (hours > 0) {
+        return { (String(hours) + " ч. " + String(minutes) + " мин.").c_str() };
+      } else {
+        return { (String(minutes) + " мин.").c_str() };
+      }
+    update_interval: 60s
+    icon: mdi:clock-start     
+    
+    
+    
+    
+sensor: 
+  - platform: uptime
+    id: id_uptime
+    internal: true
+    name: "${board_name}_uptime"   
+     
