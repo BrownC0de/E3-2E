@@ -1,5 +1,6 @@
 # Базовая плата E3-2E Board
-<img src="/MainBoard/images/Board_1.png" width="600">
+<img src="/MainBoard/photo_mainboard.jpg" width="1000">
+
 На ней находиться esp32 с Ethernet портом, разводка по питанияю, и все вводы\выводы с esp. 
 Плата максимально универсальная, с заделом под будущие модули. 
 
@@ -13,6 +14,7 @@
 - Bluetooth: v4.2 (в том числе BLE)
 - [Прошивка EspHome](#прошивка-esphome)
 
+<img src="/MainBoard/images/Board_1.png" width="600">
 
 По сколько решение изначально щиточное, то от питания по 220 я отказался отказать в пользу 5-20v от внешних блоков питания. Которые при наличии светодиодного освещения и так будут там установлены. А так же это обусловлено тем, что блоки AС-DC на 5v, которые бы уместились на данную плату, как например HiLink, выдают всего 0.6а, чего не хватит для большинства шилдов. 
 А для тех кто не планирует установаливать в щиток, питать можно плату питать от любого зарядника 1-2а через MicroUsb. 
@@ -55,8 +57,8 @@
 - GPIO-Shield Гребенка на 6 пинов, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
 - J - Гребенка на 2 пина 2.54, с перемычкой [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
 - P1, P2 - Винтовые зажимы на 3 пина, 5.0 [Ali](https://aliexpress.ru/item/32861603911.html),[ChipDip]
-- P3, P4, P5 - Винтовые зажимы на 3 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
-- P6 - Винтовой зажим на 2 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001894448937.html),[ChipDip]
+- P3, P4, P5 - Винтовые зажимы на 3 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001711075410.html), Можно объединить в 1 - 9pin [Ali](https://aliexpress.ru/item/1005001711075410.html)
+- P6 - Винтовой зажим на 2 пина, 2.54 [Ali](https://aliexpress.ru/item/1005001711075410.html),[ChipDip]
 - I2c - Либо Г образная гребенка на 4 пина, либо 2 виннтовых зажима, 2.54 [Ali](https://aliexpress.ru/item/32519474531.html?&sku_id=57443157216),[ChipDip]
 - K - Резистор 1к, размерность 0805 [Ali](https://aliexpress.ru/item/4000095368506.html),[ChipDip]
 - LINK - Светодиод в в размре 1206 [Ali](https://aliexpress.ru/item/32985163457.html),[ChipDip]
