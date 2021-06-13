@@ -48,7 +48,7 @@
 Перейдем к сборке. 
 ### Для заказа печатных плат на производстве
 
-[Скачать GEGBER](/MainBoard/images/Gerber_MainBoard.zip)
+[Скачать GERBER](/MainBoard/images/Gerber_MainBoard.zip)
 
 В Китае полно сервисов для печати плат, но я предпочитаю пользоваться [jlcpcb.com](https://jlcpcb.com/) поскольку: 
 <img src="/MainBoard/images/jlcpcb.png" width="1000">
