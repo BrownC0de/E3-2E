@@ -1,8 +1,6 @@
 substitutions:
   board: ESP32
   board_name: e3-2e_mainboard
-
-
   
 esphome:
   name: $board_name
@@ -16,11 +14,10 @@ ethernet:
   clk_mode: GPIO0_IN
   phy_addr: 1
   power_pin: GPIO16
-  use_address: 192.168.20.207
   
 # Enable logging
 logger:
-  level: DEBUG
+
 
 # Enable Home Assistant API
 api:
@@ -48,11 +45,11 @@ binary_sensor:
     device_class: moisture      
   - platform: gpio
     pin: 39
-    name: "${board_name}_pin_39"
+    name: "${board_name}_pin_39" #Можно использовать только на вход
     device_class: sound     
   - platform: gpio
     pin: 36
-    name: "${board_name}_pin_36"
+    name: "${board_name}_pin_36" #Можно использовать только на вход
     device_class: vibration     
   - platform: gpio
     pin: 15
@@ -68,7 +65,7 @@ binary_sensor:
     device_class: garage_door
   - platform: gpio
     pin: 35
-    name: "${board_name}_pin_35"
+    name: "${board_name}_pin_35" #Можно использовать только на вход
     device_class: motion
   - platform: gpio
     pin: 4
