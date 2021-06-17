@@ -2,7 +2,7 @@
 
 <img align="left" width="120" height="120" src="/MainBoard/images/bc-logo.png" alt="icon">
 
-# E3-2E Universal system to control your home. 
+# E3-2E DYI Universal system to control your home. 
 Многофункциональный модульный контроллер для домашней автоматизации, на основе ESP32 с Ethernet. 
 
 <img src="/MainBoard/images/main_photo.png" width="1200">
