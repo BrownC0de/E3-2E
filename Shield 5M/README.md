@@ -30,7 +30,7 @@
 На других сервисах малые партии - дороже, но дешевле большие. 
 
 ### Схемотехника
-<img src="/Shield%205M/Schematic_E3-2e-5M.png" width="1000">
+<img src="/Shield%205M/Schematic_E3-2E-5M.png" width="1000">
 
 ***
 
